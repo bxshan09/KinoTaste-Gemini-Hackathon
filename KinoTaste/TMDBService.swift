@@ -13,7 +13,7 @@ class TMDBService {
     private var apiKey: String {
         guard let key = Bundle.main.object(forInfoDictionaryKey: "TMDB_API_KEY") as? String else {
             // 如果你还没配好 plist，暂时可以用回硬编码，建议尽快配置
-            return "b8b948c05d8b5b1e760f070e74050b88"
+            return " "
         }
         return key
     }
