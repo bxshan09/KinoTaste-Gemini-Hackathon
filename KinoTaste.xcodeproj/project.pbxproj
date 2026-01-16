@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A094C7092F0A21AE00371641 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A094C7082F0A21AE00371641 /* SDWebImageSwiftUI */; };
+		A094C7112F0A5E8400371641 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A094C7102F0A5E8400371641 /* Launch Screen.storyboard */; };
+		A0CB79812F1259A4001C649C /* KinoTaste Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A0CB79612F1259A3001C649C /* KinoTaste Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0CB79932F125C05001C649C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A0CB79922F125C05001C649C /* SDWebImageSwiftUI */; };
+		A0E4E7E52F19458500DA36D2 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A0E4E7E42F19458500DA36D2 /* Secrets.xcconfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A094C6CD2F0A09A300371641 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +29,83 @@
 			remoteGlobalIDString = A094C6BE2F0A09A200371641;
 			remoteInfo = KinoTaste;
 		};
+		A0CB796E2F1259A4001C649C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A094C6B72F0A09A200371641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CB79602F1259A3001C649C;
+			remoteInfo = "KinoTaste Watch Watch App";
+		};
+		A0CB79782F1259A4001C649C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A094C6B72F0A09A200371641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CB79602F1259A3001C649C;
+			remoteInfo = "KinoTaste Watch Watch App";
+		};
+		A0CB797F2F1259A4001C649C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A094C6B72F0A09A200371641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CB79602F1259A3001C649C;
+			remoteInfo = "KinoTaste Watch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0CB79852F1259A4001C649C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A0CB79812F1259A4001C649C /* KinoTaste Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A094C6BF2F0A09A200371641 /* KinoTaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinoTaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A094C6CC2F0A09A300371641 /* KinoTasteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinoTasteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A094C6D62F0A09A300371641 /* KinoTasteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinoTasteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A094C7102F0A5E8400371641 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A0CB79612F1259A3001C649C /* KinoTaste Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KinoTaste Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CB796D2F1259A4001C649C /* KinoTaste Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KinoTaste Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CB79772F1259A4001C649C /* KinoTaste Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KinoTaste Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CB79B92F13809F001C649C /* KinoTaste Watch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KinoTaste Watch Watch App.entitlements"; sourceTree = "<group>"; };
+		A0CB79BA2F1380C1001C649C /* KinoTaste-Watch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KinoTaste-Watch-Watch-App-Info.plist"; sourceTree = "<group>"; };
+		A0E4E7E42F19458500DA36D2 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A094C7052F0A0B9800371641 /* Exceptions for "KinoTaste" folder in "KinoTaste" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A094C6BE2F0A09A200371641 /* KinoTaste */;
+		};
+		A0CB798F2F125A79001C649C /* Exceptions for "KinoTaste" folder in "KinoTaste Watch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				APIService.swift,
+				AppViewModel.swift,
+				Models.swift,
+				TMDBService.swift,
+			);
+			target = A0CB79602F1259A3001C649C /* KinoTaste Watch Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A094C6C12F0A09A200371641 /* KinoTaste */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A094C7052F0A0B9800371641 /* Exceptions for "KinoTaste" folder in "KinoTaste" target */,
+				A0CB798F2F125A79001C649C /* Exceptions for "KinoTaste" folder in "KinoTaste Watch Watch App" target */,
+			);
 			path = KinoTaste;
 			sourceTree = "<group>";
 		};
@@ -45,6 +119,21 @@
 			path = KinoTasteUITests;
 			sourceTree = "<group>";
 		};
+		A0CB79622F1259A3001C649C /* KinoTaste Watch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KinoTaste Watch";
+			sourceTree = "<group>";
+		};
+		A0CB79702F1259A4001C649C /* KinoTaste Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KinoTaste Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A0CB797A2F1259A4001C649C /* KinoTaste Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KinoTaste Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A094C7092F0A21AE00371641 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,16 +159,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0CB795E2F1259A3001C649C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CB79932F125C05001C649C /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CB796A2F1259A4001C649C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CB79742F1259A4001C649C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A094C6B62F0A09A200371641 = {
 			isa = PBXGroup;
 			children = (
+				A0CB79BA2F1380C1001C649C /* KinoTaste-Watch-Watch-App-Info.plist */,
+				A0CB79B92F13809F001C649C /* KinoTaste Watch Watch App.entitlements */,
+				A094C7102F0A5E8400371641 /* Launch Screen.storyboard */,
 				A094C6C12F0A09A200371641 /* KinoTaste */,
 				A094C6CF2F0A09A300371641 /* KinoTasteTests */,
 				A094C6D92F0A09A300371641 /* KinoTasteUITests */,
+				A0CB79622F1259A3001C649C /* KinoTaste Watch */,
+				A0CB79702F1259A4001C649C /* KinoTaste Watch AppTests */,
+				A0CB797A2F1259A4001C649C /* KinoTaste Watch AppUITests */,
+				A094C7072F0A21AE00371641 /* Frameworks */,
 				A094C6C02F0A09A200371641 /* Products */,
+				A0E4E7E42F19458500DA36D2 /* Secrets.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +208,18 @@
 				A094C6BF2F0A09A200371641 /* KinoTaste.app */,
 				A094C6CC2F0A09A300371641 /* KinoTasteTests.xctest */,
 				A094C6D62F0A09A300371641 /* KinoTasteUITests.xctest */,
+				A0CB79612F1259A3001C649C /* KinoTaste Watch Watch App.app */,
+				A0CB796D2F1259A4001C649C /* KinoTaste Watch Watch AppTests.xctest */,
+				A0CB79772F1259A4001C649C /* KinoTaste Watch Watch AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A094C7072F0A21AE00371641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,16 +232,19 @@
 				A094C6BB2F0A09A200371641 /* Sources */,
 				A094C6BC2F0A09A200371641 /* Frameworks */,
 				A094C6BD2F0A09A200371641 /* Resources */,
+				A0CB79852F1259A4001C649C /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A0CB79802F1259A4001C649C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				A094C6C12F0A09A200371641 /* KinoTaste */,
 			);
 			name = KinoTaste;
 			packageProductDependencies = (
+				A094C7082F0A21AE00371641 /* SDWebImageSwiftUI */,
 			);
 			productName = KinoTaste;
 			productReference = A094C6BF2F0A09A200371641 /* KinoTaste.app */;
@@ -163,6 +296,75 @@
 			productReference = A094C6D62F0A09A300371641 /* KinoTasteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A0CB79602F1259A3001C649C /* KinoTaste Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CB79822F1259A4001C649C /* Build configuration list for PBXNativeTarget "KinoTaste Watch Watch App" */;
+			buildPhases = (
+				A0CB795D2F1259A3001C649C /* Sources */,
+				A0CB795E2F1259A3001C649C /* Frameworks */,
+				A0CB795F2F1259A3001C649C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A0CB79622F1259A3001C649C /* KinoTaste Watch */,
+			);
+			name = "KinoTaste Watch Watch App";
+			packageProductDependencies = (
+				A0CB79922F125C05001C649C /* SDWebImageSwiftUI */,
+			);
+			productName = "KinoTaste Watch Watch App";
+			productReference = A0CB79612F1259A3001C649C /* KinoTaste Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CB796C2F1259A4001C649C /* KinoTaste Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CB79862F1259A4001C649C /* Build configuration list for PBXNativeTarget "KinoTaste Watch Watch AppTests" */;
+			buildPhases = (
+				A0CB79692F1259A4001C649C /* Sources */,
+				A0CB796A2F1259A4001C649C /* Frameworks */,
+				A0CB796B2F1259A4001C649C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CB796F2F1259A4001C649C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0CB79702F1259A4001C649C /* KinoTaste Watch AppTests */,
+			);
+			name = "KinoTaste Watch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "KinoTaste Watch Watch AppTests";
+			productReference = A0CB796D2F1259A4001C649C /* KinoTaste Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0CB79762F1259A4001C649C /* KinoTaste Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CB79892F1259A4001C649C /* Build configuration list for PBXNativeTarget "KinoTaste Watch Watch AppUITests" */;
+			buildPhases = (
+				A0CB79732F1259A4001C649C /* Sources */,
+				A0CB79742F1259A4001C649C /* Frameworks */,
+				A0CB79752F1259A4001C649C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CB79792F1259A4001C649C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0CB797A2F1259A4001C649C /* KinoTaste Watch AppUITests */,
+			);
+			name = "KinoTaste Watch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "KinoTaste Watch Watch AppUITests";
+			productReference = A0CB79772F1259A4001C649C /* KinoTaste Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,7 +372,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1640;
+				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					A094C6BE2F0A09A200371641 = {
@@ -184,6 +386,17 @@
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = A094C6BE2F0A09A200371641;
 					};
+					A0CB79602F1259A3001C649C = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					A0CB796C2F1259A4001C649C = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = A0CB79602F1259A3001C649C;
+					};
+					A0CB79762F1259A4001C649C = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = A0CB79602F1259A3001C649C;
+					};
 				};
 			};
 			buildConfigurationList = A094C6BA2F0A09A200371641 /* Build configuration list for PBXProject "KinoTaste" */;
@@ -192,9 +405,14 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-HK",
+				"zh-Hans",
 			);
 			mainGroup = A094C6B62F0A09A200371641;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A094C7062F0A20EF00371641 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A094C6C02F0A09A200371641 /* Products */;
 			projectDirPath = "";
@@ -203,6 +421,9 @@
 				A094C6BE2F0A09A200371641 /* KinoTaste */,
 				A094C6CB2F0A09A300371641 /* KinoTasteTests */,
 				A094C6D52F0A09A300371641 /* KinoTasteUITests */,
+				A0CB79602F1259A3001C649C /* KinoTaste Watch Watch App */,
+				A0CB796C2F1259A4001C649C /* KinoTaste Watch Watch AppTests */,
+				A0CB79762F1259A4001C649C /* KinoTaste Watch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +433,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E4E7E52F19458500DA36D2 /* Secrets.xcconfig in Resources */,
+				A094C7112F0A5E8400371641 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +446,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A094C6D42F0A09A300371641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CB795F2F1259A3001C649C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CB796B2F1259A4001C649C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CB79752F1259A4001C649C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +497,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0CB795D2F1259A3001C649C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CB79692F1259A4001C649C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CB79732F1259A4001C649C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -266,11 +531,27 @@
 			target = A094C6BE2F0A09A200371641 /* KinoTaste */;
 			targetProxy = A094C6D72F0A09A300371641 /* PBXContainerItemProxy */;
 		};
+		A0CB796F2F1259A4001C649C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CB79602F1259A3001C649C /* KinoTaste Watch Watch App */;
+			targetProxy = A0CB796E2F1259A4001C649C /* PBXContainerItemProxy */;
+		};
+		A0CB79792F1259A4001C649C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CB79602F1259A3001C649C /* KinoTaste Watch Watch App */;
+			targetProxy = A0CB79782F1259A4001C649C /* PBXContainerItemProxy */;
+		};
+		A0CB79802F1259A4001C649C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CB79602F1259A3001C649C /* KinoTaste Watch Watch App */;
+			targetProxy = A0CB797F2F1259A4001C649C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A094C6DE2F0A09A300371641 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E4E7E42F19458500DA36D2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -335,6 +616,7 @@
 		};
 		A094C6DF2F0A09A300371641 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E4E7E42F19458500DA36D2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -392,26 +674,36 @@
 		};
 		A094C6E12F0A09A300371641 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E4E7E42F19458500DA36D2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KinoTaste/KinoTaste.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R86J7KYMA4;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = NLSJU7333X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KinoTaste/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "今天看什么";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fiftypoundmule.KinoTaste;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = boxiangshan.KinoTaste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -420,26 +712,36 @@
 		};
 		A094C6E22F0A09A300371641 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E4E7E42F19458500DA36D2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KinoTaste/KinoTaste.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R86J7KYMA4;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = NLSJU7333X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KinoTaste/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "今天看什么";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fiftypoundmule.KinoTaste;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = boxiangshan.KinoTaste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,6 +820,170 @@
 			};
 			name = Release;
 		};
+		A0CB79832F1259A4001C649C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E4E7E42F19458500DA36D2 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KinoTaste Watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = NLSJU7333X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KinoTaste-Watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "今天看什么";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = boxiangshan.KinoTaste;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = boxiangshan.KinoTaste.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		A0CB79842F1259A4001C649C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E4E7E42F19458500DA36D2 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KinoTaste Watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = NLSJU7333X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KinoTaste-Watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "今天看什么";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = boxiangshan.KinoTaste;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = boxiangshan.KinoTaste.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		A0CB79872F1259A4001C649C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLSJU7333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "boxiangshan.KinoTaste-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinoTaste Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KinoTaste Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		A0CB79882F1259A4001C649C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLSJU7333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "boxiangshan.KinoTaste-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinoTaste Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KinoTaste Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		A0CB798A2F1259A4001C649C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLSJU7333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "boxiangshan.KinoTaste-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KinoTaste Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		A0CB798B2F1259A4001C649C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLSJU7333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "boxiangshan.KinoTaste-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KinoTaste Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -557,7 +1023,58 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A0CB79822F1259A4001C649C /* Build configuration list for PBXNativeTarget "KinoTaste Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CB79832F1259A4001C649C /* Debug */,
+				A0CB79842F1259A4001C649C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CB79862F1259A4001C649C /* Build configuration list for PBXNativeTarget "KinoTaste Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CB79872F1259A4001C649C /* Debug */,
+				A0CB79882F1259A4001C649C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CB79892F1259A4001C649C /* Build configuration list for PBXNativeTarget "KinoTaste Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CB798A2F1259A4001C649C /* Debug */,
+				A0CB798B2F1259A4001C649C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A094C7062F0A20EF00371641 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A094C7082F0A21AE00371641 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A094C7062F0A20EF00371641 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		A0CB79922F125C05001C649C /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A094C7062F0A20EF00371641 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A094C6B72F0A09A200371641 /* Project object */;
 }

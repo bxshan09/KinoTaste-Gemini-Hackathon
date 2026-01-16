@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  KinoTaste
+
+  Created by Boxiang Shan on 2026/1/11.
+  
+*/
+"Version" = "版本";
+"Data provided by TMDB" = "数据来源于 TMDB";

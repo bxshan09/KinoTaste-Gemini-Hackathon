@@ -4,10 +4,53 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KinoTaste Watch Watch App (Notification).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>KinoTaste Watch Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>KinoTaste.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A094C6BE2F0A09A200371641</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A094C6CB2F0A09A300371641</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A094C6D52F0A09A300371641</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0CB79602F1259A3001C649C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0CB796C2F1259A4001C649C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0CB79762F1259A4001C649C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

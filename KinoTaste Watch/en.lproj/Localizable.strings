@@ -1,0 +1,151 @@
+/* ================= Watch UI Strings ================= */
+
+/* Launch / Splash */
+"今天看什么" = "KinoTaste";
+"发现你的下一部电影" = "Find Your Next";
+
+/* WatchRecommendationView */
+"推荐" = "For You";
+"暂无推荐" = "No recommendations";
+"刷新" = "Refresh";
+"猜你喜欢" = "For You";
+"加载更多" = "Load More";
+
+/* WatchOnboardingView */
+"定制口味" = "Customize";
+"准备片单..." = "Preparing...";
+"进入首页" = "Start";
+"剧情简介" = "Overview";
+"暂无简介" = "No overview available";
+"简介" = "Info";
+
+/* WatchMovieDetailView */
+"片长: %@" = "Runtime: %@";
+"幕后主创" = "Crew";
+"主演" = "Cast";
+"待看" = "Watchlist";
+
+/* WatchPersonMoviesView */
+"暂无相关作品" = "No works found";
+"· %@" = "· %@";
+
+/* WatchRatedListView */
+"已评价" = "Rated";
+"全部" = "All";
+"喜欢" = "Likes";
+"暂无记录" = "No History";
+
+/* WatchWatchlistView */
+"待看清单" = "Watchlist";
+"暂无待看" = "List is empty";
+
+/* WatchSettingsView */
+"设置" = "Settings";
+"存储与评价" = "Storage & Review";
+"清除图片缓存" = "Clear Cache";
+"给个好评" = "Rate App";
+"重置口味数据" = "Reset Data";
+"KinoTaste for Watch" = "KinoTaste for Watch";
+"Version" = "Version";
+"Data provided by TMDB" = "Data provided by TMDB";
+
+/* Alerts */
+"确认清除？" = "Clear Cache?";
+"将删除所有已下载的海报图片。" = "This will delete all downloaded images.";
+"取消" = "Cancel";
+"确定" = "Confirm";
+"已清除" = "Cleared";
+"好" = "OK";
+"空间已释放。" = "Space freed.";
+"确定重置？" = "Reset?";
+"所有数据将被清空且无法恢复。" = "All data will be erased irreversibly.";
+
+/* Privacy */
+"隐私政策" = "Privacy Policy";
+"欢迎使用" = "Welcome";
+"请阅读并同意隐私政策以继续使用。我们仅收集必要的观影偏好用于推荐。" = "Please read and agree to continue. We only collect preferences for recommendations.";
+"阅读隐私政策" = "Read Policy";
+"同意并继续" = "Agree & Continue";
+
+/* ================= Shared Logic (ViewModel/Models) ================= */
+
+/* Categories */
+"📅 即将登场" = "📅 Upcoming";
+"☀️ 治愈时光" = "☀️ Healing";
+"💌 遇见爱情" = "💌 Romance";
+"😂 轻松一刻" = "😂 Comedy";
+"🧠 极致烧脑" = "🧠 Brain Burner";
+"🚀 硬核科幻" = "🚀 Hard Sci-Fi";
+"🇭🇰 港产岁月" = "🇭🇰 HK Cinema";
+"🖌️ 视觉动画" = "🖌️ Animation";
+"🔫 冷硬犯罪" = "🔫 Crime";
+"📖 真实事件" = "📖 True Story";
+
+/* Genres */
+"动作" = "Action";
+"冒险" = "Adventure";
+"动画" = "Animation";
+"喜剧" = "Comedy";
+"犯罪" = "Crime";
+"纪录" = "Documentary";
+"剧情" = "Drama";
+"家庭" = "Family";
+"奇幻" = "Fantasy";
+"历史" = "History";
+"恐怖" = "Horror";
+"音乐" = "Music";
+"悬疑" = "Mystery";
+"爱情" = "Romance";
+"科幻" = "Sci-Fi";
+"电视电影" = "TV Movie";
+"惊悚" = "Thriller";
+"战争" = "War";
+"西部" = "Western";
+
+/* Person Roles */
+"导演" = "Director";
+"编剧" = "Writer";
+"摄影" = "Cinematography";
+"剪辑" = "Editor";
+"配乐" = "Music";
+"监制" = "Producer";
+"饰 %@" = "as %@";
+"幕后" = "Crew";
+
+/* Languages */
+"英语" = "English";
+"日语" = "Japanese";
+"韩语" = "Korean";
+"华语" = "Chinese";
+"法语" = "French";
+"德语" = "German";
+"意大利语" = "Italian";
+"西语" = "Spanish";
+"俄语" = "Russian";
+"印地语" = "Hindi";
+"泰语" = "Thai";
+"葡语" = "Portuguese";
+"丹麦语" = "Danish";
+"瑞典语" = "Swedish";
+"波斯语" = "Persian";
+"荷兰语" = "Dutch";
+"波兰语" = "Polish";
+
+/* Time Units */
+"小时" = "h ";
+"分" = "m";
+"分钟" = "m";
+/* Donation */
+"请喝咖啡" = "Buy me a coffee";
+"开发不易，请我喝杯咖啡吧" = "Support Development";
+"您的支持将帮助支付服务器费用" = "Your support helps cover server costs.";
+"暂无商品，请稍后再试" = "No items available, try again later.";
+"🎉 谢谢你的咖啡！" = "🎉 Thanks for the coffee!";
+"以后再说" = "Maybe Later";
+"💎 冷门佳片" = "💎 Hidden Gems";
+"分类" = "Categories";
+"👻 惊魂午夜" = "👻 Midnight Thrills";
+"支持开发者" = " ";
+"小杯咖啡" = "Small Coffee";
+"中杯咖啡" = "Medium Coffee";
+"大杯咖啡" = "Large Coffee";

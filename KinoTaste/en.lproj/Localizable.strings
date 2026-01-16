@@ -1,0 +1,311 @@
+/* ================= English Localization ================= */
+
+/* App Name & Slogans */
+"今天看什么" = "KinoTaste";
+"发现你的下一部电影" = "Find Your Next";
+"KinoTaste for Watch" = "KinoTaste for Watch";
+
+/* MainView - Dashboard */
+"发现" = "Discover";
+"灵感" = "Inspiration";
+"常规搜索" = "Search";
+"关键词搜索" = "Keyword Search";
+"记忆碎片" = "Memory Fragment";
+"记忆碎片 (AI)" = "Memory Fragment (AI)";
+"猜你喜欢" = "For You";
+"分类胶卷" = "Categories";
+"正在冲洗胶片..." = "Developing film...";
+"换一批试试" = "Shuffle";
+"正在加载..." = "Loading...";
+"胶卷盒" = "Film Roll";
+"END OF ROLL" = "END OF ROLL";
+"SELECTED" = "SELECTED";
+"☁️ 云端今日精选" = "☁️ Daily Pick";
+
+/* SearchView */
+"搜索电影 / 影人" = "Search movies, people...";
+"描述剧情、场景或模糊的记忆..." = "Describe plot, scenes or vague memories...";
+"请尝试用自然语言描述，例如：“主角被困在火星种土豆”" = "Try natural language, e.g., \"Guy stuck on Mars growing potatoes\"";
+"正在连接云端记忆库..." = "Connecting to Memory Cloud...";
+"AI 正在分析你的描述线索" = "AI is analyzing your clues...";
+"未找到相关内容" = "No results found";
+"影人" = "People";
+"推测结果" = "AI Suggestions";
+"电影" = "Movies";
+"💡 %@" = "💡 %@";
+
+/* InspirationView & Onboarding */
+"灵感模式" = "Inspiration Mode";
+"正在寻找灵感..." = "Finding inspiration...";
+"片库空空如也" = "No movies left here";
+"刷新试试" = "Refresh";
+"定制口味" = "Customize Taste";
+"准备片单..." = "Preparing list...";
+"进入推荐页" = "Start Exploring";
+"滑得越多，推荐越懂你" = "The more you swipe, the better recommendations get.";
+"还需评价 %lld 部电影解锁推荐" = "Rate %lld more to unlock recommendations";
+"评价这部电影" = "Rate this movie";
+"我点错了 (没看过)" = "Mistake (Haven't seen)";
+"准备就绪" = "All Set";
+"进入首页 %lld" = "Enter Home %lld";
+
+/* ProfileView */
+"我的" = "Profile";
+"已评价影片" = "Rated Movies";
+"观影足迹" = "History";
+"待看清单" = "Watchlist";
+"🔖 待看清单" = "🔖 Watchlist";
+"暂无待看" = "Empty List";
+"暂无记录" = "No History";
+"设置" = "Settings";
+"存储与评价" = "Storage & Feedback";
+"清除图片缓存" = "Clear Cache";
+"确认清除？" = "Clear Cache?";
+"确认清除" = "Clear";
+"将删除所有已下载的海报图片。" = "This will remove all downloaded images.";
+"确定要清除所有下载的图片缓存吗？" = "Are you sure you want to clear image cache?";
+"取消" = "Cancel";
+"确定" = "Confirm";
+"已清除" = "Cleared";
+"好" = "OK";
+"空间已释放。" = "Space freed.";
+"给个好评" = "Rate on App Store";
+"重置口味数据" = "Reset Preferences";
+"确定重置？" = "Reset?";
+"确定要重置吗？" = "Are you sure?";
+"确定重置" = "Reset";
+"所有数据将被清空且无法恢复。" = "All data will be erased irreversibly.";
+"此操作将清空所有“喜欢/不喜欢”以及“待看清单”的数据，且无法恢复。" = "This will permanently erase your likes, dislikes, and watchlist.";
+"Version" = "Version";
+"Data provided by TMDB" = "Data provided by TMDB";
+"ICP备案号：" = "ICP License: ";
+
+/* MovieDetailView */
+"剧情简介" = "Overview";
+"暂无简介" = "No overview available";
+"暂无评分" = "No Rating";
+"片长: %@" = "Runtime: %@";
+"幕后主创" = "Crew";
+"主要演员" = "Cast";
+"主演" = "Cast";
+"制作发行" = "Production";
+"暂无数据" = "No Data";
+"Top Rated" = "Top Rated";
+"找片" = "Source";
+"预告" = "Trailer";
+"点击关闭" = "Tap to close";
+"长按看简介" = "Long press for overview";
+"简介" = "Bio";
+
+/* Actions & Ratings */
+"待看" = "Watchlist";
+"喜欢" = "Like";
+"已喜欢" = "Liked";
+"一般" = "Neutral";
+"不喜欢" = "Dislike";
+"不想看" = "Pass";
+"看过" = "Watched";
+"评价" = "Rate";
+"全部" = "All";
+
+/* Errors & Status */
+"哎呀，出错了" = "Oops, something went wrong";
+"重试" = "Retry";
+"搜索失败，请检查网络" = "Search failed, check network";
+"连接超时 请稍后再试" = "Connection timeout, please try again later";
+"AI 未能在记忆中找到匹配的碎片" = "AI couldn't find matching fragments";
+"连接记忆库超时 (请检查服务器日志)" = "Memory Bank timeout (Check server logs)";
+"该分类暂时没有更多影片" = "No more movies in this category";
+"网络不佳，无法获取该类影片" = "Network error, cannot fetch movies";
+"初始化失败" = "Initialization failed";
+"暂无相关影片" = "No movies found";
+"暂无相关作品" = "No works found";
+
+/* Person Roles */
+"导演" = "Director";
+"编剧" = "Writer";
+"摄影" = "Cinematography";
+"剪辑" = "Editor";
+"配乐" = "Music";
+"监制" = "Producer";
+"幕后" = "Crew";
+"饰 %@" = "as %@";
+
+/* Categories */
+"分类" = "Categories";
+"📅 即将登场" = "📅 Upcoming";
+"☀️ 治愈时光" = "☀️ Healing";
+"💌 遇见爱情" = "💌 Romance";
+"😂 轻松一刻" = "😂 Comedy";
+"🧠 极致烧脑" = "🧠 Brain Burner";
+"🚀 硬核科幻" = "🚀 Hard Sci-Fi";
+"🇭🇰 港产岁月" = "🇭🇰 HK Classics";
+"🖌️ 视觉动画" = "🖌️ Animation";
+"🔫 冷硬犯罪" = "🔫 Crime";
+"📖 真实事件" = "📖 Based on True Story";
+
+/* Smart Tags & Reasons */
+"✨ 灵感推荐" = "✨ Inspired Pick";
+"🎲 盲盒惊喜" = "🎲 Blind Box";
+"🎬 值得一试" = "🎬 Worth a Try";
+"🍿 也就是看部电影的事" = "🍿 Just a Movie Night";
+"口碑神作" = "Acclaimed";
+"冷门佳片" = "Hidden Gem";
+"高分精选" = "Top Rated";
+"热门华语" = "Trending Chinese";
+"类似《%@》" = "Similar to \"%@\"";
+"%@ · 风格精选" = "%@ · Style Pick";
+"高分 · %@" = "Top · %@";
+
+/* Time & Units */
+"小时" = "h ";
+"分" = "m";
+"分钟" = "m";
+"· %@" = "· %@";
+
+/* Genres */
+"动作" = "Action";
+"冒险" = "Adventure";
+"动画" = "Animation";
+"喜剧" = "Comedy";
+"犯罪" = "Crime";
+"纪录" = "Documentary";
+"剧情" = "Drama";
+"家庭" = "Family";
+"奇幻" = "Fantasy";
+"历史" = "History";
+"恐怖" = "Horror";
+"音乐" = "Music";
+"悬疑" = "Mystery";
+"爱情" = "Romance";
+"科幻" = "Sci-Fi";
+"电视电影" = "TV Movie";
+"惊悚" = "Thriller";
+"战争" = "War";
+"西部" = "Western";
+
+/* Languages */
+"英语" = "English";
+"日语" = "Japanese";
+"韩语" = "Korean";
+"华语" = "Chinese";
+"法语" = "French";
+"德语" = "German";
+"意大利语" = "Italian";
+"西语" = "Spanish";
+"俄语" = "Russian";
+"印地语" = "Hindi";
+"泰语" = "Thai";
+"葡语" = "Portuguese";
+"丹麦语" = "Danish";
+"瑞典语" = "Swedish";
+"波斯语" = "Persian";
+"荷兰语" = "Dutch";
+"波兰语" = "Polish";
+
+/* Privacy */
+"隐私政策" = "Privacy Policy";
+"阅读隐私政策" = "Read Privacy Policy";
+"欢迎使用今天看什么" = "Welcome to KinoTaste";
+"在开始探索电影世界之前，请您仔细阅读并同意我们的隐私政策。" = "Before exploring the world of movies, please read and agree to our privacy policy.";
+"我们将严格保护您的个人信息安全，仅在您同意的情况下收集必要的观影偏好数据以提供推荐服务。" = "We strictly protect your personal information and only collect necessary preference data with your consent to provide recommendations.";
+"同意并继续" = "Agree and Continue";
+"请阅读并同意隐私政策以继续使用。我们仅收集必要的观影偏好用于推荐。" = "Please read and agree to the privacy policy. We only collect preferences for recommendations.";
+"欢迎使用" = "Welcome";
+"👻 惊魂午夜" = "👻 Midnight Thrills";
+/* Rating & Swipe Actions */
+"看过" = "Seen";
+"不想看" = "Skip";
+"想看" = "Watch";
+"待定" = "Pending";
+"喜欢" = "Like";
+"一般" = "Okay";
+"不喜欢" = "Dislike";
+"我点错了 (没看过)" = "Mistake (Not Seen)";
+"评价这部电影" = "Rate Movie";
+
+/* Categories */
+"📅 即将登场" = "📅 Upcoming";
+"☀️ 治愈时光" = "☀️ Healing";
+"💌 遇见爱情" = "💌 Romance";
+"😂 轻松一刻" = "😂 Comedy";
+"🧠 极致烧脑" = "🧠 Mind-Bending";
+"🚀 硬核科幻" = "🚀 Sci-Fi";
+"👻 惊魂午夜" = "👻 Midnight Thrills";
+"🇭🇰 港产岁月" = "🇭🇰 HK Classics";
+"🖌️ 视觉动画" = "🖌️ Animation";
+"🔫 冷硬犯罪" = "🔫 Crime";
+"📖 真实事件" = "📖 True Story";
+"✨ 猜你喜欢" = "✨ For You";
+"🎞️ 分类胶卷" = "🎞️ Categories";
+
+/* Onboarding & Inspiration */
+"定制你的口味" = "Define Your Taste";
+"正在为你精选..." = "Curating for you...";
+"准备就绪" = "All Set";
+"进入推荐页" = "Start Browsing";
+"滑得越多，推荐越懂你" = "The more you swipe, the better we get.";
+"还需评价 %lld 部电影解锁推荐" = "Rate %lld more to unlock";
+"灵感模式" = "Inspiration";
+"片库空空如也" = "No more movies";
+"刷新试试" = "Refresh";
+"正在寻找灵感..." = "Seeking inspiration...";
+
+/* Movie Card */
+"长按看简介" = "Hold for Info";
+"剧情简介" = "Plot Summary";
+"暂无简介" = "No Overview";
+"点击关闭" = "Tap to Close";
+/* Watchlist Deck */
+"待看清单 (%lld)" = "Watchlist (%lld)";
+"待看清单是空的" = "Watchlist is Empty";
+"去推荐页加几部电影吧" = "Go add movies from Discover";
+"不如今天看这部？" = "How about this one today?";
+
+/* Search */
+"搜索电影 / 影人" = "Search movies, people...";
+"描述剧情、场景或模糊的记忆..." = "Describe plot, scenes..."; /* 缩短文案以适配 */
+"影人" = "People";
+"推测结果" = "Suggestions";
+"电影" = "Movies";
+"换一批" = "Shuffle";
+"未找到相关内容" = "No results found";
+/* Search Placeholders */
+"搜索电影 / 影人" = "Search movies, people...";
+"描述剧情、场景或模糊的记忆..." = "Describe plot, scenes or memories...";
+
+/* Search Results */
+"推测结果" = "Guess";
+"换一批" = "Shuffle";
+"加入待看" = "Watchlist";
+"推荐" = "Discover";
+/* Recommendation Reasons */
+"类似《%@》" = "Similar to \"%@\"";
+"%@ · 风格精选" = "%@ · Selected Style";
+"口碑神作" = "Critically Acclaimed";
+"冷门佳片" = "Hidden Gem";
+"高分精选" = "Highly Rated";
+"热门华语" = "Trending in Chinese";
+"高分 · %@" = "Top Rated · %@";
+"初始化失败" = "Initialization failed";
+"网络不佳，无法获取该类影片" = "Network error, retry later";
+"未能在记忆中找到匹配的碎片" = "Couldn't find a match in memories";
+/* Rated Movies Filter & Status */
+"全部评价" = "All Ratings";
+"我喜欢的" = "Liked";
+"无感" = "Neutral";
+/* Donation */
+"请喝咖啡" = "Buy me a coffee";
+"开发不易，请我喝杯咖啡吧" = "Support Development";
+"您的支持将帮助支付服务器费用" = "Your support helps cover server costs.";
+"暂无商品，请稍后再试" = "No items available, try again later.";
+"🎉 谢谢你的咖啡！" = "🎉 Thanks for the coffee!";
+"以后再说" = "Maybe Later";
+"💎 冷门佳片" = "💎 Hidden Gems";
+"分类" = "Categories";
+"👻 惊魂午夜" = "👻 Midnight Thrills";
+"正在重组记忆碎片..." = "Reassembling memories...";
+"支持开发者" = " ";
+"小杯咖啡" = "Small Coffee";
+"中杯咖啡" = "Medium Coffee";
+"大杯咖啡" = "Large Coffee";
